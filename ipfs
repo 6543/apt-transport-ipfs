@@ -1,4 +1,4 @@
-#!/usr/bin/python3 -u
+#!/usr/bin/python2.7 -u
 # -*- Mode:Python; indent-tabs-mode:nil; tab-width:4 -*-
 #
 # Copyright (C) 2014-2015, 2017 Bashton Ltd

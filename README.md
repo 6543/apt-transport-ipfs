@@ -28,14 +28,20 @@ IPFS hash that was manually set up to serve the hello deb.
 Backup your /etc/apt/sources.list, remove all the lines that it has and leave it
 just with:
 
-    deb ipfs:/ipns/QmdyaTjqXayZVQULcEyHQFx6n76TrMBc5aEDCgvp5cUTEi xenial main
+    #archive.ubuntu.com
+    deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial main restricted universe multiverse
+    deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-security main restricted universe multiverse
+    deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-updates main restricted universe multiverse 
+    deb-src ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial main restricted universe multiverse
+    deb-src ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-security main restricted universe multiverse
+    deb-src ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-updates main restricted universe multiverse
 
-To test it, run:
+    #archive.canonical.com
+    deb [arch=amd64] ipfs:/ipns/QmUajtQCL6yHcBaYxsZKyD8QH7n977ZVxjU5yMXwYC183c xenial partner
+    deb-src ipfs:/ipns/QmUajtQCL6yHcBaYxsZKyD8QH7n977ZVxjU5yMXwYC183c xenial partner
 
-    sudo apt update
-    sudo apt install hello
 
-This IPFS node is not permanent and will disappear. To set it up again, use the
-script in `scripts/add_test_mirror.sh`.
 
-Made with :rainbow: by JáquerEspeis.
+This IPFS node is not permanent jet ...
+
+from JáquerEspeis.
