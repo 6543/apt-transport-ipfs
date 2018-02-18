@@ -44,4 +44,4 @@ just with:
 
 This IPFS node is not permanent jet ...
 
-from JáquerEspeis.
+copyed from JáquerEspeis.
