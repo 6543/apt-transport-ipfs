@@ -16,6 +16,9 @@ Copy the ipfs file from this repo to the directory for apt transport methods:
     cd apt-transport-ipfs
     sudo cp ipfs /usr/lib/apt/methods/ipfs
 
+Install ipfs as daemon:
+  https://github.com/6543/ipfs_daemon
+
 # Configure
 
 Add an IPFS mirror to your apt sources.list file. TODO set up a mirror.
@@ -31,7 +34,7 @@ just with:
     #archive.ubuntu.com
     deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial main restricted universe multiverse
     deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-security main restricted universe multiverse
-    deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-updates main restricted universe multiverse 
+    deb [arch=amd64] ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-updates main restricted universe multiverse
     deb-src ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial main restricted universe multiverse
     deb-src ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-security main restricted universe multiverse
     deb-src ipfs:/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial-updates main restricted universe multiverse
