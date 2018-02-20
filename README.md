@@ -16,8 +16,9 @@ Copy the ipfs file from this repo to the directory for apt transport methods:
     cd apt-transport-ipfs
     sudo cp ipfs /usr/lib/apt/methods/ipfs
 
-Install ipfs as daemon:
+#-> server Install ipfs
   https://github.com/6543/ipfs_daemon
+  su ipfs -c "ipfs config --json Experimental.FilestoreEnabled true"
 
 # Configure
 
