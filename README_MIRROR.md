@@ -25,3 +25,7 @@ Use the instruktions from https://github.com/6543/ipfs_daemon/blob/master/setup-
 
     # /etc/apt/mirror.list
     ... [WIP] ...
+
+# ToDo:
+ * use ipfs-cluster instead of ipfs (https://github.com/ipfs/ipfs-cluster/blob/master/docs/ipfs-cluster-guide.md)
+ * write complet HowTo setup Mirror
