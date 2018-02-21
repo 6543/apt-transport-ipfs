@@ -5,6 +5,15 @@ IPFS transport for apt
     sudo apt install python-pip git gzip wget
     sudo pip install ipfsapi
 
+# Try IPFS-Repo's:
+  insted of install ipfs and /usr/lib/apt/methods/ipfs you can test it via public gateways
+
+      add deb https://ipfs.io/ipns/QmXfAyjHThwksUyW9BwuqCDuzu1PM1XQkR1HVTbActvYDJ xenial main restricted universe multiverse
+
+  to the /etc/apt/sources.list
+
+  but dont use this for general purpose -> the gateways are elseware heavely out of bandwith!
+
 # Install
 
 Copy the ipfs file from this repo to the directory for apt transport methods:
