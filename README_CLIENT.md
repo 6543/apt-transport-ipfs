@@ -43,6 +43,8 @@ just with:
     deb ipfs:/ipns/QmUajtQCL6yHcBaYxsZKyD8QH7n977ZVxjU5yMXwYC183c xenial partner
     deb-src ipfs:/ipns/QmUajtQCL6yHcBaYxsZKyD8QH7n977ZVxjU5yMXwYC183c xenial partner
 
+ -> actualy down because of hosting provider block ipfs :(
+
 # New archives:
 
 if you like to add other archives to IPFS, i have ~ 100GB more ...
